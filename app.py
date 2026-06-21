@@ -54,7 +54,7 @@ else:
         )
         # Cria o chat e guarda na sessão para não perder o histórico
         st.session_state.chat_session = client.chats.create(
-            model="gemini-1.5-flash-002",
+            model="gemini-2.5-flash-002",
             config=config
         )
         # Lista para mostrar as mensagens na tela

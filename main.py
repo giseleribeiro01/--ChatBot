@@ -44,7 +44,7 @@ config = types.GenerateContentConfig(
 
 # Inicia a sessão de chat
 chat = client.chats.create(
-    model="gemini-1.5-flash",
+    model="gemini-2.5-flash",
     config=config
 )
 
